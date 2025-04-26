@@ -15,8 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnRun = findViewById<Button>(R.id.btnRun)
         btnRun.setOnClickListener {
-            Toast.makeText(this@MainActivity, "Клик на кнопке", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this@MainActivity, "Клик на кнопке", Toast.LENGTH_SHORT).show()
         }
-
     }
 }
